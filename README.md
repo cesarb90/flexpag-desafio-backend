@@ -5,37 +5,6 @@
 # 🚀 Desafio backend
 
 
-Forma de interação
-
-Post 
-
-(http://localhost:8080/agendamento // vai gerar um id automaticamente)
-```
-{
-  "valor": "0.0",
-  "dataHora": "dd/MM/yyyy HH:mm"
-}
-```
-Patch 
-
-(http://localhost:8080/pagamento/id)
-
-(utiliza o id gerado no Post para atualizar o status de Pending para Paid)
-
-Get
-
-(utiliza o id gerado no Post para buscar o status se Pending ou Paid)
-
-Put
-
-(utiliza do id gerado no Post para atualizar o agendamento)
-```
-{
- "valor": "0.0",
-  "dataHora": "dd/MM/yyyy HH:mm"
-}
-```
-
 Bem-vindo(a). Este é o desafio Back end!
 
 O objetivo deste desafio é avaliar suas habilidades em programação.
@@ -124,3 +93,35 @@ spring:
 ---
 
 _O desafio acima foi cuidadosamente construído para propósitos de avaliação apenas._
+
+
+Forma de interação
+
+Post 
+
+(http://localhost:8080/agendamento // vai gerar um id automaticamente)
+```
+{
+  "valor": "0.0",
+  "dataHora": "dd/MM/yyyy HH:mm"
+}
+```
+Patch 
+
+(http://localhost:8080/pagamento/id)
+
+(utiliza o id gerado no Post para atualizar o status de Pending para Paid)
+
+Get
+
+(utiliza o id gerado no Post para buscar o status se Pending ou Paid)
+
+Put
+
+(utiliza do id gerado no Post para atualizar o agendamento)
+```
+{
+ "valor": "0.0",
+  "dataHora": "dd/MM/yyyy HH:mm"
+}
+```
