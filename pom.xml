@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.flexpag</groupId>
-	<artifactId>payment-scheduler</artifactId>
+	<artifactId>cesarpayment-scheduler</artifactId>
 	<version>1.0.0</version>
 	<name>payment-scheduler</name>
 	<description>Projeto do desafio backend para dev jr flexpag</description>
